@@ -1,0 +1,57 @@
+{
+  "_comment": "Umbra X Development — Security Whitelist Configuration",
+  "_version": "1.0.0",
+  "whitelistedUsers": [
+  ],
+  "whitelistedRoles": [],
+  "whitelistedChannels": [],
+  "whitelistedLinks": [
+    "discord.com",
+    "discord.gg",
+    "discordapp.com",
+    "youtube.com",
+    "youtu.be",
+    "tenor.com",
+    "giphy.com",
+    "imgur.com",
+    "github.com",
+    "twitch.tv",
+    "spotify.com",
+    "twitter.com",
+    "x.com",
+    "reddit.com",
+    "instagram.com",
+    "klipy.com"
+  ],
+  "trustedBots": [],
+  "antiNuke": {
+    "maxChannelDeletesPerMinute": 4,
+    "maxChannelCreatesPerMinute": 4,
+    "maxRoleDeletesPerMinute": 3,
+    "maxRoleCreatesPerMinute": 5,
+    "maxBansPerMinute": 3,
+    "maxKicksPerMinute": 4,
+    "maxWebhookCreatesPerMinute": 2,
+    "punishmentAction": "ban",
+    "alertOnThreshold": true
+  },
+  "antiSpam": {
+    "maxMessagesPerWindow": 5,
+    "windowMs": 5000,
+    "maxDuplicates": 4,
+    "duplicateWindowMs": 10000,
+    "maxMentions": 5,
+    "maxEmojis": 15,
+    "maxLines": 20,
+    "punishmentAction": "mute",
+    "muteDurationMs": 300000,
+    "warnBeforePunish": true
+  },
+  "antiRaid": {
+    "joinThreshold": 10,
+    "joinWindowMs": 10000,
+    "punishmentAction": "kick",
+    "enableLockdown": true,
+    "lockdownDurationMs": 300000
+  }
+}

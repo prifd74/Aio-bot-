@@ -1,0 +1,33 @@
+{
+  "name": "chai-charcha-bot",
+  "version": "1.0.0",
+  "description": "Umbra X Development Community - A friendly and cute AI girl chatbot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node luna.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "romantic",
+    "ai"
+  ],
+  "author": "You",
+  "license": "MIT",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.90",
+    "axios": "^1.14.2",
+    "canvas": "^3.2.1",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "kazagumo": "^3.4.1",
+    "react": "^19.2.5",
+    "sharp": "^0.34.5",
+    "shoukaku": "^4.3.0",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
