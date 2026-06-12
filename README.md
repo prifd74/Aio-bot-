@@ -4,6 +4,8 @@ Copyright (c) 2026 UmbraX Development
 
 Permission is granted to use, modify, and redistribute this software, provided that proper credit is given to UmbraX Development.
 
+Tutorial - https://youtu.be/5QnYy9716_8
+
 ## Requirements
 
 If you use, modify, fork, or redistribute this project, you MUST:
